@@ -1,0 +1,5 @@
+body { width: 42em; margin: 2em; }
+h4 { padding-left: 0.5em; }
+
+.menu { list-style-type: none; }
+.menu > li { padding-left: 1em; display: inline-block; }
