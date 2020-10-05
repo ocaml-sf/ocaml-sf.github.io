@@ -1,141 +1,440 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab:400,400i,500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui"
+    />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="local-style.css">
-
-    <title>OCSF – The OCaml Software Foundation</title>
+    <title>OCSF - Home</title>
   </head>
-  <body class="bg-dark vh-100">
-    <nav class="navbar navbar-expand-lg navbar-light
-                border-bottom border-dark
-                bg-light
-                d-flex"
-         style="font-size: 1.5rem;">
 
-      <button class="navbar-toggler" type="button"
-              data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!--END OF HEAD ^-->
+  <!--START OF BODY v-->
 
-      <div class="container">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <span class="navbar-brand">
-          <img src="img/logo-ocsf.svg"
-               style="height: 4rem;"
-               alt="The OCaml Software Foundation.
-                    Logo by Bettina Steinbrecher"/>
-        </span>
+  <body>
+    <div class="min-w-mobile overflow-hidden">
+      <!--lg:col-start-2 lg:col-span-6
+          md:col-start-1 md:col-span-4-->
 
-        <ul class="navbar-nav flex-grow-1 justify-content-center">
-          <li class="nav-item mx-2">
-            <a class="nav-link  active "
-               href="index.html">Main</a></li>
-          <li class="nav-item mx-2">
-            <a class="nav-link "
-               href="actions.html">Actions</a></li>
-          <li class="nav-item mx-2">
-            <a class="nav-link  "
-               href="becoming-a-sponsor.html">Becoming a sponsor</a></li>
-          <li class="nav-item mx-2">
-            <a class="nav-link  "
-               href="about-us.html">About us</a></li>
-        </ul>
+      <div class="flex justify-center">
+        <!-------------------------------------------------------------------------------->
+        <!--Navigation-->
+        <header
+          class="pl-4 sm:px-4 pt-4 max-w-6xl h-32 w-full flex sm:justify-between items-center"
+        >
+          <div class="flex justify-center">
+            <a href="/">
+              <img
+                class="hidden sm:block w-40"
+                src="/assets/ocsf_logo.svg"
+                alt="Logo OCaml Software Foundation"
+              />
+              <img
+                class="sm:hidden w-8 mr-8"
+                src="/assets/ocsf_logo_compact.svg"
+                alt="Logo OCaml Software Foundation Small"
+              />
+            </a>
+          </div>
+          <nav
+            class="text-18 font-serif flex flex-wrap whitespace-no-wrap text-night-light"
+          >
+            <a class="inline-block py-2" href="/actions">Actions</a>
+            <a class="inline-block ml-4 py-2" href="/becoming-a-sponsor"
+              >Become a sponsor</a
+            >
+            <a class="inline-block ml-4 py-2" href="/about-us">About us</a>
+          </nav>
+        </header>
       </div>
+
+      <main class="mt-12 flex flex-col items-center">
+        
+<div class="px-4 max-w-6xl mt-20 w-full">
+  <div class="flex flex-col mb-8 sm:flex-row sm:items-center">
+    <div
+      class="max-w-lg text-50 mb-4 sm:mb-0 sm:text-60 font-serif leading-tight font-normal"
+    >
+      We empower OCaml and its community
+    </div>
+
+    <div class="text-21 font-normal leading-8 max-w-lg text-night">
+      The OCaml Software Foundation is a (non-profit) foundation whose mission
+      is to promote, protect, and advance the OCaml programming language and its
+      ecosystem, and to support and facilitate the growth of a diverse and
+      international community of OCaml users.
+    </div>
+  </div>
+
+  <div class="-mx-12 lg:-mx-56 pt-6 pb-24 flex justify-center">
+    <img
+      src="/assets/header_img@2x.jpg"
+      style="max-width: 87.5rem"
+      class="w-full h-half object-cover object-left md:object-center md:h-full"
+      alt="people programming"
+    />
+  </div>
+
+  <!-------------------------------------------------------------------------------->
+  <!--Section 1: Introduction-->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 row-gap-8">
+    <div
+      style="max-width: 33rem;"
+      class="text-24 font-serif order-1 md:order-0 text-night-light font-normal leading-snug self-center"
+    >
+      We collect donations from our sponsors, companies, entities or people
+      interested in growing the OCaml programming language, and redistribute
+      these resources to grow, support and strengthen the OCaml community.
+<!-- (no supporter program for now...)
+      <div
+        class="flex text-16 text-night border-t border-night-light pl-2 pt-3 mt-6 mr-20"
+      >
+        <img src="/assets/zap.svg" class="mr-4" />
+        <a href="/supporter-program" class="w-48"
+          >Learn more about our supporter program</a
+        >
       </div>
-    </nav>
-    <main role="main" class="container bg-white pt-3 px-5" style="min-height: 100%">
-      <div class="w-75">
-        <p class="lead">
-        The OCaml Software Foundation is a (non-profit) foundation whose mission is to promote, protect, and advance the <a href="https://ocaml.org">OCaml programming language</a> and its ecosystem, and to support and facilitate the growth of a diverse and international community of OCaml users.
+-->
+    </div>
+    <div class="order-0 md:order-1 flex justify-center">
+      <img
+        class="w-2/3 h-full sm:h-full block sm:w-full max-w-md"
+        src="/assets/illu_ocaml@2x.jpg"
+        alt="illustration"
+      />
+    </div>
+  </div>
+
+  <!-------------------------------------------------------------------------------->
+  <!--SECTION 3: Recent Actions-->
+  <div class="flex justify-center">
+    <section class="max-w-3xl w-full">
+      <h1
+        class="text-center sm:text-left mb-20 mt-40 text-50 sm:text-72 font-serif leading-tight"
+      >
+        Some of our recent actions
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+        
+      <div class="flex justify-center">
+        <div
+          class="text-center flex flex-col max-w-xs md:text-left md:block lg:mr-6 lg:text-left lg:max-w-full"
+        >
+          <img
+            class="h-16 mb-6"
+            src="/assets/ic_internships.svg"
+            alt="Symbol image for Internships"
+          />
+          <div class="font-serif mb-4 text-24">Internships</div>
+          <div class="text-14 text-ghost-light"> 
+        We fund internships to advance the OCaml ecosystem and also grow new OCaml
+        contributors. In 2019 and 2020 we funded Outreachy internships to improve
+        the OCaml compiler and language tools, a research
+        internship on OCaml type inference, and development internships on
+        teaching platforms.
+         </div>
+        </div>
+      </div>
+      
+        
+        
+      <div class="flex justify-center">
+        <div
+          class="text-center flex flex-col max-w-xs md:text-left md:block lg:mr-6 lg:text-left lg:max-w-full"
+        >
+          <img
+            class="h-16 mb-6"
+            src="/assets/ic_learn.svg"
+            alt="Symbol image for Learn-OCaml Platform"
+          />
+          <div class="font-serif mb-4 text-24">Learn-OCaml Platform</div>
+          <div class="text-14 text-ghost-light"> 
+        We support the development of the Learn-OCaml
+        exercise platform and try to facilitate its adoption by teachers. We
+        provided financial support to some early-adopters of the Learn-OCaml
+        platform (McGill university). We are funding teachers to grow a shared
+        corpus of high-quality exercises. We also provided financial support to
+        run new editions of the OCaml MOOC, open to everyone.
+         </div>
+        </div>
+      </div>
+      
+      </div>
+      <div class="flex justify-center mt-2 mt-12 mr-4">
+        <a href="/actions">
+          <button class="btn-main">Learn more</button>
+        </a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!--SECTION 4: Our current sponsors-->
+
+<div class="-mx-4 mt-16 w-full flex flex-col">
+  <div class="w-full" style="background-image: url('/assets/wave.svg')" />
+  <div class="w-full bg-ghost flex flex-col items-center mt-16 pb-56">
+    <div style="max-width: 70rem" class="relative w-full bg-ghost mt-16 pb-8" id="sponsors">
+      <div class="px-4 max-w-6xl flex flex-col md:flex-row justify-center">
+        <div
+          style="max-width: 24.3rem"
+          class="font-serif text-center sm:text-left text-50 sm:text-72 leading-tight"
+        >
+          Our current sponsors
+        </div>
+
+        <p
+          style="max-width: 25rem"
+          class="text-16 pt-8 md:pl-10 text-night-light"
+        >
+          If your company would like to contribute in supporting and advancing
+          the OCaml programming language and its community, please consider
+          <a href="/becoming-a-sponsor">becoming a sponsor</a> too!
         </p>
-        <p>We collects donations from our sponsors, companies, entities or people interested in growing the OCaml programming language, and redistribute these resources to grow, support and strengthen the OCaml community.</p>
-        <h3 id="ocaml">OCaml</h3>
-        <p>The OCaml programming language and its community emphasize the development of correct, powerful software that we can reason about, in particular thanks to the functional programming style. OCaml favors good, simple designs; its barrier to entry is lower than other functional programming languages. A vibrant community of free software developers share the resulting designs and ideas, for the benefit of all programmers, in any language. Systems that were improved by using OCaml technology include Facebook Messenger, the Coq mathematics assistant, and Docker for Mac and Windows. Supporting the OCaml language and ecosystem strengthens diversity, safety, expressivenes and simplicity in the software world.</p>
-        <h2 id="some-of-our-recent-actions">Some of our recent actions</h2>
-        <p>We support the development of the <a href="learn-ocaml.html">Learn-OCaml</a> exercise platform and try to facilitate its adoption by teachers. We provided financial support to some early-adopters of the Learn-OCaml platform (McGill university). We are funding teachers to grow a <a href="https://github.com/ocaml-sf/learn-ocaml-corpus">shared corpus</a> of high-quality exercises. We also provided financial support to run new editions of the <a href="https://www.fun-mooc.fr/courses/course-v1:parisdiderot+56002+session03/about">OCaml MOOC</a>, open to everyone.</p>
-        <p>We support the evolution and maintenance of the OCaml software ecosystem. Over the course of the OCaml 4.10 release process, we are funding work by Kate Deplaix to have a wide look at the ecosystem and improve compatibility with the upcoming release. We are also funding improvements to the OCaml Reference manual, and a development sprint for the <a href="https://github.com/owlbarn">Owl</a> scientific computing project.</p>
-        <p>For a more complete view, see our <a href="actions.html">past and current actions</a>.</p>
-        <h2 id="sponsors">
-        Our current sponsors
-        </h2>
-        <p>If your company would like to contribute in supporting and advancing the OCaml programming language and its community, please consider <a href="becoming-a-sponsor.html">becoming a sponsor</a> too!</p>
-        <div class="sponsors-block">
-        <h3 id="platinum">Platinum</h3>
-        <div class="sponsors shuffle container d-flex flex-wrap justify-content-center">
-        <div class="flex-fill mx-3">
-        <p><a href="https://ahrefs.com/"> <img src="img/logo-ahrefs.png"
-               alt="Ahrefs"
-               style="width: 180px; height: 60px;" /> </a></p>
+      </div>
+      <img
+        class="absolute right-0 -mr-32 mt-2 sm:-mt-24"
+        src="/assets/pattern1.svg"
+      />
+      <img
+        class="absolute right-0 -mr-32 mt-2 sm:-mt-20"
+        src="/assets/pattern2.svg"
+      />
+
+      <div class="relative z-10 mt-20 grid grid-rows-3 row-gap-6">
+        <div class="bg-white h-32 border-l-4 border-platinum">
+          <div class="h-full relative flex items-center">
+            <div
+              style="top: 50% "
+              class="text-14 absolute transform -translate-x-3 uppercase -translate-y-1/2 text-center -rotate-90"
+            >
+              Platinum
+            </div>
+            <div
+              class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-12 items-center"
+            >
+              
+      <a href="https://janestreet.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-janestreet.png"
+      />
+      
+              
+      </a>
+      
+
+              
+      <a href="https://ahrefs.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-ahrefs.png"
+      />
+      
+              
+      </a>
+      
+
+              
+      <a href="https://ocamlpro.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-ocamlpro.png"
+      />
+      
+              
+      </a>
+      
+
+              
+      <a href="https://tezos.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-tezos.png"
+      />
+      
+              
+      </a>
+      
+            </div>
+          </div>
         </div>
-        <div class="flex-fill mx-3">
-        <p><a href="https://www.janestreet.com/"> <img src="img/logo-janestreet.png"
-               alt="Jane Street"
-               style="width: 150px; height: 60px;" /> </a></p>
+        <div class="bg-white h-32 border-l-4 border-stone">
+          <div class="h-full relative flex items-center">
+            <div
+              style="top: 50% "
+              class="text-14 absolute transform -translate-y-1/2 uppercase text-center -rotate-90"
+            >
+              Silver
+            </div>
+            <div
+              class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-12 items-center"
+            >
+              
+      <a href="https://lexifi.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-lexifi.svg"
+      />
+      
+              
+      </a>
+      
+
+              
+      <a href="https://bloomberg.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-bloomberg.png"
+      />
+      
+              
+      </a>
+      
+            </div>
+          </div>
         </div>
-        <div class="flex-fill mx-3">
-        <p><a href="http://www.ocamlpro.com/"> <img src="img/logo-ocamlpro.png"
-               alt="OCamlPro"
-               style="width: 289px; height: 60px;" /> </a></p>
-        </div>
-        <div class="flex-fill mx-3">
-        <p><a href="https://tezos.foundation"> <img src="img/logo-tezos.png"
-               alt="Tezos Foundation"
-               style="width: 187px; height: 60px;" /> </a></p>
-        </div>
-        </div>
-        <h3 id="silver">Silver</h3>
-        <div class="sponsors shuffle container d-flex justify-content-center">
-        <div class="flex-fill mx-3">
-        <p><a href="https://www.bloomberg.com/"> <img src="img/logo-bloomberg.png"
-               alt="Bloomberg"
-               style="width: 268px; height: 50px;" /> </a></p>
-        </div>
-        <div class="flex-fill mx-3">
-        <p><a href="https://www.lexifi.com/"> <img src="img/logo-lexifi.svg"
-               alt="Lexifi"
-               style="width: 220px; height: 50px;" /> </a></p>
-        </div>
-        </div>
-        <h3 id="bronze">Bronze</h3>
-        <div class="sponsors shuffle container d-flex justify-content-center">
-        <div class="flex-fill mx-3">
-        <p><a href="https://www.simcorp.com/"> <img src="img/logo-simcorp.png"
-               alt=""
-               style="width: 211px; height: 45px;" /> </a></p>
-        </div>
-        <div class="flex-fill mx-3">
-        <p><a href="https://www.mitsubishielectric-rce.eu/"> Mitsubishi Electric R&amp;D Centre Europe (MERCE) </a></p>
-        </div>
-        <div class="flex-fill mx-3">
-        <p><a href="https://tarides.com/"> <img src="./img/logo-TARIDES.png"
-                  alt=""
-                  style="width: 142px; height: 45px;" /> </a></p>
-        </div>
-        </div>
-        <script>
-        var to_shuffle = document.querySelectorAll("div.shuffle");
-        for (elem of to_shuffle) {
-          // https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
-          for (var i = elem.children.length; i >= 0; i--) {
-              elem.appendChild(elem.children[Math.random() * i | 0]);
-          }
-        }
-        </script>
+        <div class="bg-white h-32 border-l-4 border-bronze">
+          <div class="h-full relative flex items-center">
+            <div
+              style="top: 50% "
+              class="text-14 absolute transform -translate-y-1/2 uppercase text-center -rotate-90"
+            >
+              Bronze
+            </div>
+            <div
+              class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-12 items-center"
+            >
+              
+      <a href="https://simcorp.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-simcorp.png"
+      />
+      
+              
+      </a>
+      
+
+              
+      <a href="https://www.mitsubishielectric-rce.eu/" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-mitsubishi-rce.svg"
+      />
+      
+              
+      </a>
+      
+
+              
+      <a href="https://tarides.com" rel="noopener" target="_blank">
+        
+                
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="/assets/sponsors/logo-tarides.png"
+      />
+      
+              
+      </a>
+      
+            </div>
+          </div>
         </div>
       </div>
-    </main>
+    </div>
+  </div>
+</div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </main>
+
+      <!--FOOTER IN A GRID-->
+
+      <footer
+        class="px-4 flex sm:justify-center bg-gray-900 font-serif font-medium text-16 text-white pt-24 pb-32"
+      >
+        <div class="max-w-6xl grid grid-cols-2 sm:grid-cols-8 gap-4 row-gap-6">
+          <div class="sm:col-span-3 ">
+            <div class="text-camel">Ocaml Software Foundation</div>
+            <ul class="text-ghost-44">
+              <li>ocaml.software.foundation@gmail.com</li>
+              <li>
+                <img
+                  class="pt-4"
+                  src="/assets/ocsf_logo_compact.svg"
+                  alt="Logo OCaml Software Foundation Small"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div class="sm:col-start-6">
+            <div class="text-camel">Sitemap</div>
+            <ul class="text-ghost-44">
+              <li><a href="/becoming-a-sponsor">Become a Sponsor</a></li>
+              <li><a href="/actions">Actions</a></li>
+              <li><a href="/about-us">About</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="text-camel">Social Media</div>
+            <ul class="text-ghost-44">
+              <li>
+                <a
+                  href="https://twitter.com/OCamlFoundation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="text-camel">More</div>
+            <ul class="text-ghost-44">
+              <li><a href="/assets/pdfs/RI-OCaml.pdf" target="_blank">Statutes (FR)</a></li>
+<!-- the INRIA foundation doesn't have an English-speaking website as of now (October 2020)
+              <li>
+                <a
+                  href="https://www.inria.fr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Inria Foundation</a
+                >
+              </li>
+-->
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
