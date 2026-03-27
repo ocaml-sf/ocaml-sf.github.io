@@ -655,7 +655,7 @@
           "count": 2
         }
       ],
-      "commentary": "French institutions dominate responses, with ENS and grandes écoles appearing repeatedly. This concentration reflects OCaml's INRIA origins and integration into French CS curricula as the standard functional programming teaching language. International mentions (Cornell, MIT, Cambridge) appear sporadically, suggesting adoption depends on individual professors rather than systematic curriculum integration. The geographic concentration creates both stability (guaranteed pipeline) and vulnerability (dependent on French educational policies).\n",
+      "commentary": "French institutions dominate responses, with ENS and grandes écoles appearing repeatedly. This concentration reflects OCaml's INRIA origins and integration into French CS curricula as the standard functional programming teaching language. International mentions (Cornell, Cambridge) appear sporadically, suggesting adoption depends on individual professors rather than systematic curriculum integration. The geographic concentration creates both stability (guaranteed pipeline) and vulnerability (dependent on French educational policies).\n",
       "section": "OCaml Usage"
     },
     {
@@ -1099,7 +1099,7 @@
           ]
         }
       ],
-      "commentary": "Developer tooling and compiler implementation (both 39%) dominate use cases, reflecting OCaml's comparative advantage in building language infrastructure. Web development's strong showing (36% backend, 26% frontend) proves OCaml has expanded beyond traditional niches. However, minimal adoption in ML/AI (8%) and mobile (1%) reveals ecosystem gaps where OCaml cannot compete with specialized platforms.\n",
+      "commentary": "Developer tooling and programming language implementations (both 39%) dominate use cases, reflecting OCaml's comparative advantage in building language infrastructure. Web development's strong showing (36% backend, 26% frontend) proves OCaml has expanded beyond traditional niches. However, minimal adoption in ML/AI (8%) reveals ecosystem gaps where OCaml cannot compete with specialized platforms.\n",
       "section": "OCaml Usage"
     },
     {
@@ -2262,7 +2262,7 @@
           "count": 1
         }
       ],
-      "commentary": "This question generated the richest feedback (223 responses). The core insight: \"It's not the language that's hard, it's the tools, libraries, and documentation.\" Key pain points cluster around the dune/opam relationship confusion, uninformative error messages (especially versus Rust), and lack of practical examples. The absence of automatic derivation for basic operations (printing, equality) particularly frustrates developers from modern functional languages. These specific, actionable complaints provide a roadmap for ecosystem improvements.\n",
+      "commentary": "This question generated the richest feedback (223 responses). Key pain points cluster around the dune/opam relationship confusion, uninformative error messages (especially versus Rust), and lack of practical examples. The absence of automatic derivation for basic operations (printing, equality) particularly frustrates developers from modern functional languages. These specific, actionable complaints provide a roadmap for ecosystem improvements.\n",
       "section": "OCaml Usage"
     },
     {
@@ -2666,7 +2666,7 @@
           ]
         }
       ],
-      "commentary": "Best practices content demand (55%) dramatically exceeds beginner fundamentals (13%), reflecting the experienced user base struggling with ecosystem navigation rather than language basics. The desire for library walkthroughs (32%) and tooling choices (30%) reinforces that users need ecosystem guidance, not syntax tutorials. This aligns with Q47 where only 48% feel confident about best practices.\n",
+      "commentary": "Best practices content demand (58%) dramatically exceeds beginner fundamentals (13%), reflecting the experienced user base struggling with ecosystem navigation rather than language basics. The desire for library walkthroughs (33%), debugging how-tos (32%), and tooling choices (32%) reinforces that users need ecosystem guidance, not syntax tutorials.\n",
       "section": "Community"
     },
     {
@@ -3052,7 +3052,7 @@
           "count": 9
         }
       ],
-      "commentary": "The 46% already on OCaml 5.x within months of release demonstrates successful multicore adoption, a major technical milestone. The 4.14 holdouts (39%) likely reflect production systems' conservative upgrade cycles. Minimal legacy version usage (<4.13 at 11%) shows the community successfully migrates forward, avoiding version fragmentation.\n",
+      "commentary": "The 46% already on OCaml 5.x within months of release demonstrates successful multicore adoption, a major technical milestone. The 4.14 holdouts (39%) likely reflect production systems' conservative upgrade cycles. Minimal legacy version usage (≤4.13 at 11%) shows the community successfully migrates forward, avoiding version fragmentation.\n",
       "section": "Compiler"
     },
     {
@@ -3532,7 +3532,7 @@
           "count": 3
         }
       ],
-      "commentary": "Dune's 93% adoption represents remarkable consolidation since its 2016 introduction. The persistent makefile usage (39%) suggests integration needs with non-OCaml components that dune doesn't fully address. One respondent's \"dune for convenience but this tool is awful\" highlights that monopoly doesn't equal satisfaction.\n",
+      "commentary": "Dune's 93% adoption represents remarkable consolidation since its 2017 introduction. The persistent makefile usage (39%) suggests integration needs with non-OCaml components that dune doesn't fully address. One respondent's \"dune for convenience but this tool is awful\" highlights that monopoly doesn't equal satisfaction.\n",
       "section": "Tooling"
     },
     {
@@ -3613,7 +3613,7 @@
           "count": 6
         }
       ],
-      "commentary": "PPX dominance (68% using, 20% creating) confirms successful migration from camlp4/camlp5 (now 7% combined). The 25% using no preprocessors reveals a substantial \"pure OCaml\" cohort, either by preference or because their domains don't require metaprogramming. Active custom PPX development indicates healthy extensibility.\n",
+      "commentary": "PPX dominance (68% using, 20% creating) confirms successful migration from camlp4/camlp5 (now 5%). The 25% using no preprocessors reveals a substantial \"pure OCaml\" cohort, either by preference or because their domains don't require metaprogramming. Active custom PPX development indicates healthy extensibility.\n",
       "section": "Tooling"
     },
     {
@@ -5460,7 +5460,7 @@
           "count": 1
         }
       ],
-      "commentary": "The 79 responses (23% participation) focus on performance (slow updates, compilation time) and discoverability (finding packages, assessing quality). Security concerns (package signing, vulnerability tracking) appear repeatedly, suggesting growing production use where these matter. The request for namespace support indicates scaling challenges.\n",
+      "commentary": "The 79 responses (23% participation) focus on performance (slow updates, compilation time) and discoverability (finding packages, assessing quality). A few responses raise security concerns (package signing, vulnerability tracking), suggesting growing production use where these matter.\n",
       "section": "Feelings"
     },
     {
@@ -5942,7 +5942,7 @@
           "count": 30
         }
       ],
-      "commentary": "Maintainability scores (74% agreement) rank among OCaml's strongest selling points, second only to language satisfaction. This validates OCaml's core value proposition: type safety and functional paradigms produce maintainable code. The 7% disagreement is negligible, confirming this as a genuine strength rather than community bias.\n",
+      "commentary": "Maintainability scores (74% agreement) rank among OCaml's strongest selling points, second only to language satisfaction. This validates OCaml's core value proposition: type safety and functional paradigms produce maintainable code. The 4% disagreement is negligible, confirming this as a genuine strength rather than community bias.\n",
       "section": "Feelings"
     },
     {
@@ -5977,7 +5977,7 @@
           "count": 135
         }
       ],
-      "commentary": "The stark asymmetry (37% find jobs hard to locate versus 9% finding them easy) quantifies the employment challenge. Combined with Q53's hiring difficulties, this confirms the talent market deadlock. The 31% neutral likely includes those not actively job searching. Geographic concentration may explain some difficulty.\n",
+      "commentary": "The stark asymmetry (37% find jobs hard to locate versus 9% finding them easy) quantifies the employment challenge, though 40% selected \"I don't know,\" likely reflecting those not actively job searching. Combined with Q53's hiring difficulties, this confirms the talent market deadlock.\n",
       "section": "Feelings"
     },
     {
@@ -6012,7 +6012,7 @@
           "count": 188
         }
       ],
-      "commentary": "Professional development investment shows concerning signals: 44% report no employer support, and another 32% are unsure. Only 23% receive concrete support (training, conference attendance, time allocation). This lack of investment perpetuates the talent shortage, as companies won't develop the OCaml developers they claim they can't hire.\n",
+      "commentary": "The hiring manager perspective mirrors the candidate side: only 7% find it easy to hire qualified OCaml candidates, while 20% report difficulty. The dominant response is \"I don't know\" (62%), reflecting that most respondents are not in hiring positions. Among those with hiring experience, the difficulty outweighs ease by nearly 3:1, reinforcing the talent market deadlock seen in Q49.\n",
       "section": "Feelings"
     },
     {
@@ -6051,7 +6051,7 @@
           "count": 36
         }
       ],
-      "commentary": "Community event participation remains limited: 56% attended no events, though virtual participation (33%) exceeds in-person (15%), reflecting both COVID impacts and geographic dispersion. The high non-participation suggests many users engage with OCaml in isolation, missing community connections that could address their challenges.\n",
+      "commentary": "An effect system (57%) tops the wishlist, followed closely by builtin deriving (49%) and typeclasses/implicits (44%). These three features share a common theme: reducing boilerplate while preserving type safety. The gap to the next tier is significant, with a more powerful module system (19%) and namespaces (17%) drawing far less demand. Only 11% selected \"I don't know,\" suggesting most respondents have clear opinions on language evolution.\n",
       "section": "Burning Desires"
     },
     {
@@ -6098,7 +6098,7 @@
           "count": 11
         }
       ],
-      "commentary": "Documentation dominates improvement priorities (25%), significantly exceeding build tools (15%) or package management (13%). This aligns with Q45's dissatisfaction metrics. The community has clearly identified its top pain point. Standard library improvements (11%) and IDE support (10%) round out the top five actionable improvements.\n",
+      "commentary": "Documentation for user libraries dominates improvement priorities (25%), significantly exceeding build tools (15%) or package management (13%). This aligns with Q45's dissatisfaction metrics. The compiler (12%), core language documentation (11%), and communication to outsiders (11%) round out the top priorities, reinforcing the community's focus on documentation and outreach.\n",
       "section": "Burning Desires"
     },
     {
@@ -6137,7 +6137,7 @@
           "count": 5
         }
       ],
-      "commentary": "The twin barriers of hiring difficulty and missing libraries (both ~48%) create interlocking constraints. Companies can't adopt without developers, developers won't specialize without jobs, and neither group invests in libraries for uncertain futures. Learning curve (35%) and documentation (33%) compound these primary barriers. Only 14% cite language limitations, confirming problems lie in ecosystem rather than core language.\n",
+      "commentary": "Hiring difficulty (50%) and missing libraries (48%) are the top two adoption barriers, creating interlocking constraints. Companies can't adopt without developers, developers won't specialize without jobs, and neither group invests in libraries for uncertain futures. Lack of developer tools (33%) and learning curve (28%) compound these primary barriers. Environment constraints (20%) and performance (5%) are cited far less, confirming problems lie in ecosystem rather than core language.\n",
       "section": "Burning Desires"
     },
     {
@@ -6352,6 +6352,10 @@
           "count": 1
         },
         {
+          "answer": "Seeking ITEA partners for http://refpersys.org/",
+          "count": 1
+        },
+        {
           "answer": "Single (and not only multi) thread performance and zero cost abstraction are essential for numerical code.",
           "count": 1
         },
@@ -6444,7 +6448,7 @@
           "count": 1
         }
       ],
-      "commentary": "Platform improvements focus on language features: effect handlers (56%), typeclasses (44%), and ad-hoc polymorphism (31%) lead requests. The demand for compile-time capabilities over runtime features reflects OCaml's type-safety focus. Modular implicits interest (44%) suggests appetite for Scala-like features that reduce boilerplate.\n",
+      "commentary": "The 75 free-text responses cover a wide range of topics. Recurring themes include appreciation for OCaml's type system and expressiveness, frustration with tooling and documentation gaps, and calls for better marketing and community outreach. Several responses highlight the tension between OCaml's technical strengths and its ecosystem challenges.\n",
       "section": "Burning Desires"
     },
     {
@@ -6655,7 +6659,7 @@
           "count": 1
         }
       ],
-      "commentary": "Geographic concentration reveals both strength and vulnerability. France's 30% share (versus 2% of global developers) provides a stable base but creates dependence on French institutions. The US (14%) and UK (5%) lag relative to their developer populations. The 50-country reach proves global interest exists despite concentration.\n",
+      "commentary": "Geographic concentration reveals both strength and vulnerability. France's 31% share provides a stable base but creates dependence on French institutions. The US (16%) and UK (8%) follow. The 50-country reach proves global interest exists despite concentration.\n",
       "section": "Demographics, Diversity and Inclusion"
     },
     {
@@ -6788,7 +6792,7 @@
           "count": 6
         }
       ],
-      "commentary": "Age distribution skews experienced, with median age likely in the 30s. The concentration in 25-34 (26%) and 35-44 (24%) brackets represents established professionals. Limited youth participation (<25 at 16%) may reflect OCaml's absence from bootcamps and entry-level positions. The 11% over 55 shows retention of long-term users.\n",
+      "commentary": "Two-thirds (67%) do not consider themselves part of an underrepresented group. Among those who do, LGBQ+ identity is most reported (9%), followed by age-related underrepresentation (7%) and racial/ethnic minority status (7%). Women or those perceived as women represent 5% of respondents, and 3% identify as trans. The low representation of women and racial minorities compared to the broader tech industry suggests the OCaml community faces significant diversity challenges.\n",
       "section": "Demographics, Diversity and Inclusion"
     },
     {
@@ -6815,7 +6819,7 @@
           "count": 173
         }
       ],
-      "commentary": "Gender diversity remains critically low at 3% non-male respondents (compared to ~20% industry baseline), indicating systematic barriers to inclusion. While limited responses prevent detailed analysis, this represents the community's most significant demographic challenge. The disparity exceeds even typical functional programming communities and demands investigation.",
+      "commentary": "Among those who belong to an underrepresented group, the majority (86%) say it never makes participation difficult. However, 14% report that it sometimes does, and 2% say it often does. The 60% selecting \"N/A\" are those who do not identify as part of an underrepresented group. While the absolute numbers are small (16 reporting any difficulty), these responses deserve attention to ensure the community remains welcoming to all.",
       "section": "Demographics, Diversity and Inclusion"
     }
   ],
